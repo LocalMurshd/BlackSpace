@@ -1,0 +1,809 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MurderMyster2 = Instance.new("ScreenGui")
+local mm2 = Instance.new("Frame")
+local Side = Instance.new("Frame")
+local Icon = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Buttons = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UIListLayout = Instance.new("UIListLayout")
+local Main = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Settings = Instance.new("TextButton")
+local Title_2 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local shadow = Instance.new("ImageLabel")
+local Title_3 = Instance.new("TextLabel")
+local Close = Instance.new("ImageButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local shadow_2 = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Aimbot = Instance.new("ImageButton")
+local shadow_3 = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local Title_4 = Instance.new("TextLabel")
+local Title_5 = Instance.new("TextLabel")
+local Esp = Instance.new("ImageButton")
+local shadow_4 = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local Title_6 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local APOOVE = Instance.new("Frame")
+local Icon_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local Buttons_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local Pet = Instance.new("Frame")
+local UIPadding_2 = Instance.new("UIPadding")
+local UICorner_6 = Instance.new("UICorner")
+local Search = Instance.new("Frame")
+local Query = Instance.new("TextBox")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner_7 = Instance.new("UICorner")
+local Container = Instance.new("ScrollingFrame")
+local UIPadding_3 = Instance.new("UIPadding")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local Pet_2 = Instance.new("ImageButton")
+local ConsoleButton = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local bluegradient = Instance.new("UIGradient")
+local Title_7 = Instance.new("TextLabel")
+local UIPadding_4 = Instance.new("UIPadding")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local Close_2 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local redgradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local shadow_5 = Instance.new("ImageLabel")
+local Title_8 = Instance.new("TextLabel")
+
+--Properties:
+
+MurderMyster2.Name = "MurderMyster2"
+MurderMyster2.Parent = game.Workspace
+MurderMyster2.ResetOnSpawn = false
+
+mm2.Name = "mm2"
+mm2.Parent = MurderMyster2
+mm2.AnchorPoint = Vector2.new(0.5, 0.5)
+mm2.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+mm2.BackgroundTransparency = 0.550
+mm2.BorderSizePixel = 0
+mm2.Position = UDim2.new(0.511837602, 0, 0.517182112, 0)
+mm2.Size = UDim2.new(0.626832128, 0, 0.499656349, 120)
+mm2.Active = true
+mm2.Draggable = true
+mm2.ResetOnSpawn = false
+Side.Name = "Side"
+Side.Parent = mm2
+Side.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Side.BackgroundTransparency = 0.550
+Side.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Side.BorderSizePixel = 0
+Side.Position = UDim2.new(-2.88762791e-08, 0, 0.110202558, 0)
+Side.Size = UDim2.new(0.224858239, 0, 0.889644802, 0)
+
+Icon.Name = "Icon"
+Icon.Parent = Side
+Icon.AnchorPoint = Vector2.new(0.5, 0)
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BackgroundTransparency = 1.000
+Icon.BorderSizePixel = 0
+Icon.LayoutOrder = 2
+Icon.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+Icon.Size = UDim2.new(0.850000024, 0, 1, 0)
+Icon.ZIndex = 3
+Icon.AutoButtonColor = false
+Icon.Font = Enum.Font.GothamBold
+Icon.Text = ""
+Icon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Icon.TextSize = 18.000
+
+UICorner.CornerRadius = UDim.new(0.0900000036, 0)
+UICorner.Parent = Icon
+
+UIAspectRatioConstraint.Parent = Icon
+
+UICorner_2.CornerRadius = UDim.new(0.0549999997, 0)
+UICorner_2.Parent = Side
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(74, 0, 111)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(41, 0, 62))}
+UIGradient.Rotation = -90
+UIGradient.Parent = Side
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Side
+Buttons.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Buttons.BackgroundTransparency = 1.000
+Buttons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Buttons.BorderSizePixel = 0
+Buttons.Position = UDim2.new(0.0939711034, 0, 0.0465595648, 0)
+Buttons.Size = UDim2.new(0.811815023, 0, 0.92569834, 0)
+Buttons.ZIndex = 4
+
+UIAspectRatioConstraint_2.Parent = Buttons
+UIAspectRatioConstraint_2.AspectRatio = 0.680
+
+UIListLayout.Parent = Buttons
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+Main.Name = "Main"
+Main.Parent = Buttons
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(-0.116839558, 0, -0.0422975719, 0)
+Main.Size = UDim2.new(0, 121, 0, 50)
+Main.Font = Enum.Font.SourceSans
+Main.Text = " "
+Main.TextColor3 = Color3.fromRGB(0, 0, 0)
+Main.TextScaled = true
+Main.TextSize = 14.000
+Main.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.AnchorPoint = Vector2.new(0.5, 0.75)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.623014212, 0, 0.770211935, 0)
+Title.Size = UDim2.new(1.0421375, 0, 1.03524232, 0)
+Title.ZIndex = 50
+Title.Font = Enum.Font.Unknown
+Title.Text = "Main"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 18.000
+Title.TextWrapped = true
+Title.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(59, 59, 59))}
+UIGradient_2.Parent = Main
+
+Settings.Name = "Settings"
+Settings.Parent = Buttons
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(-0.116839558, 0, -0.0422975719, 0)
+Settings.Size = UDim2.new(0, 121, 0, 50)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = " "
+Settings.TextColor3 = Color3.fromRGB(0, 0, 0)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
+
+Title_2.Name = "Title"
+Title_2.Parent = Settings
+Title_2.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0.515576184, 0, 0.770211935, 0)
+Title_2.Size = UDim2.new(0.827261448, 0, 1.03524232, 0)
+Title_2.ZIndex = 50
+Title_2.Font = Enum.Font.Unknown
+Title_2.Text = "Settings"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 18.000
+Title_2.TextWrapped = true
+Title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(59, 59, 59))}
+UIGradient_3.Parent = Settings
+
+shadow.Name = "shadow"
+shadow.Parent = mm2
+shadow.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow.BackgroundTransparency = 1.000
+shadow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadow.BorderSizePixel = 0
+shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+shadow.Size = UDim2.new(1, 35, 1, 35)
+shadow.ZIndex = -1
+shadow.Image = "rbxassetid://14001321443"
+shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow.ImageTransparency = 0.750
+shadow.ScaleType = Enum.ScaleType.Slice
+shadow.SliceCenter = Rect.new(50, 50, 150, 150)
+
+Title_3.Name = "Title"
+Title_3.Parent = mm2
+Title_3.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0.453413606, 0, 0.0762390569, 0)
+Title_3.Size = UDim2.new(0.831211388, 0, 0.0925511345, 0)
+Title_3.ZIndex = 50
+Title_3.Font = Enum.Font.Unknown
+Title_3.Text = "Black Space - Murder Myster 2"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 18.000
+Title_3.TextWrapped = true
+Title_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Close.Name = "Close"
+Close.Parent = mm2
+Close.AnchorPoint = Vector2.new(0.5, 0.5)
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.948026955, 0, 0.0528929941, 0)
+Close.Selectable = false
+Close.Size = UDim2.new(0.108101964, 0, 0.0205863379, 45)
+Close.ZIndex = 50
+Close.Image = "rbxassetid://14423621163"
+Close.ScaleType = Enum.ScaleType.Slice
+Close.SliceCenter = Rect.new(20, 20, 80, 80)
+
+UIAspectRatioConstraint_3.Parent = Close
+UIAspectRatioConstraint_3.AspectRatio = 1.050
+
+shadow_2.Name = "shadow"
+shadow_2.Parent = Close
+shadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow_2.BackgroundTransparency = 1.000
+shadow_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadow_2.BorderSizePixel = 0
+shadow_2.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+shadow_2.Size = UDim2.new(1, 0, 1.10000002, 0)
+shadow_2.ZIndex = 49
+shadow_2.Image = "rbxassetid://14001321443"
+shadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_2.ImageTransparency = 0.750
+shadow_2.ScaleType = Enum.ScaleType.Slice
+shadow_2.SliceCenter = Rect.new(50, 50, 150, 150)
+shadow_2.SliceScale = 0.750
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 85, 255))}
+UIGradient_4.Parent = Close
+
+TextLabel.Parent = Close
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0.899999976, 0, 0.600000024, 0)
+TextLabel.ZIndex = 50
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 18.000
+TextLabel.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.0350000001, 0)
+UICorner_3.Parent = mm2
+
+ScrollingFrame.Parent = mm2
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.224820092, 0, 0.117957354, 0)
+ScrollingFrame.Size = UDim2.new(0, 410, 0, 361)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1, 0)
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = ScrollingFrame
+Aimbot.AnchorPoint = Vector2.new(0.5, 0.5)
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.BackgroundTransparency = 1.000
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.194368318, 0, 0.234191135, 0)
+Aimbot.Selectable = false
+Aimbot.Size = UDim2.new(0.342248678, 0, 0.0561050884, 45)
+Aimbot.ZIndex = 50
+Aimbot.Image = "rbxassetid://14423621163"
+Aimbot.ScaleType = Enum.ScaleType.Slice
+Aimbot.SliceCenter = Rect.new(20, 20, 80, 80)
+Aimbot.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CITY512/modules/main/aimbot.lua"))()
+end)
+
+shadow_3.Name = "shadow"
+shadow_3.Parent = Aimbot
+shadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow_3.BackgroundTransparency = 1.000
+shadow_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadow_3.BorderSizePixel = 0
+shadow_3.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+shadow_3.Size = UDim2.new(1, 0, 1.10000002, 0)
+shadow_3.ZIndex = 49
+shadow_3.Image = "rbxassetid://14001321443"
+shadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_3.ImageTransparency = 0.750
+shadow_3.ScaleType = Enum.ScaleType.Slice
+shadow_3.SliceCenter = Rect.new(50, 50, 150, 150)
+shadow_3.SliceScale = 0.750
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(59, 59, 59))}
+UIGradient_5.Parent = Aimbot
+
+Title_4.Name = "Title"
+Title_4.Parent = Aimbot
+Title_4.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.BorderSizePixel = 0
+Title_4.Position = UDim2.new(0.520882785, 0, 0.653038323, 0)
+Title_4.Size = UDim2.new(0.837874413, 0, 0.665676594, 0)
+Title_4.ZIndex = 50
+Title_4.Font = Enum.Font.Unknown
+Title_4.Text = "Aimbot"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextScaled = true
+Title_4.TextSize = 18.000
+Title_4.TextWrapped = true
+Title_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Title_5.Name = "Title"
+Title_5.Parent = ScrollingFrame
+Title_5.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.BorderSizePixel = 0
+Title_5.Position = UDim2.new(0.445583433, 0, 0.0876502693, 0)
+Title_5.Size = UDim2.new(0.200916722, 0, 0.101606205, 0)
+Title_5.ZIndex = 50
+Title_5.Font = Enum.Font.Unknown
+Title_5.Text = "Main"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextScaled = true
+Title_5.TextSize = 18.000
+Title_5.TextWrapped = true
+Title_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Esp.Name = "Esp"
+Esp.Parent = ScrollingFrame
+Esp.AnchorPoint = Vector2.new(0.5, 0.5)
+Esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Esp.BackgroundTransparency = 1.000
+Esp.BorderSizePixel = 0
+Esp.Position = UDim2.new(0.194368318, 0, 0.454863489, 0)
+Esp.Selectable = false
+Esp.Size = UDim2.new(0.342248678, 0, 0.0561050884, 45)
+Esp.ZIndex = 50
+Esp.Image = "rbxassetid://14423621163"
+Esp.ScaleType = Enum.ScaleType.Slice
+Esp.SliceCenter = Rect.new(20, 20, 80, 80)
+Aimbot.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+end)
+
+
+shadow_4.Name = "shadow"
+shadow_4.Parent = Esp
+shadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow_4.BackgroundTransparency = 1.000
+shadow_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadow_4.BorderSizePixel = 0
+shadow_4.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+shadow_4.Size = UDim2.new(1, 0, 1.10000002, 0)
+shadow_4.ZIndex = 49
+shadow_4.Image = "rbxassetid://14001321443"
+shadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_4.ImageTransparency = 0.750
+shadow_4.ScaleType = Enum.ScaleType.Slice
+shadow_4.SliceCenter = Rect.new(50, 50, 150, 150)
+shadow_4.SliceScale = 0.750
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(59, 59, 59))}
+UIGradient_6.Parent = Esp
+
+Title_6.Name = "Title"
+Title_6.Parent = Esp
+Title_6.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.BorderSizePixel = 0
+Title_6.Position = UDim2.new(0.520882785, 0, 0.653038323, 0)
+Title_6.Size = UDim2.new(0.837874413, 0, 0.665676594, 0)
+Title_6.ZIndex = 50
+Title_6.Font = Enum.Font.Unknown
+Title_6.Text = "Esp"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextScaled = true
+Title_6.TextSize = 18.000
+Title_6.TextWrapped = true
+Title_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(56, 0, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(23, 0, 35))}
+UIGradient_7.Rotation = -90
+UIGradient_7.Parent = mm2
+
+APOOVE.Name = "APOOVE"
+APOOVE.Parent = mm2
+APOOVE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+APOOVE.BackgroundTransparency = 0.550
+APOOVE.BorderColor3 = Color3.fromRGB(27, 42, 53)
+APOOVE.BorderSizePixel = 0
+APOOVE.Position = UDim2.new(-1.09775435e-07, 0, 9.2860212e-08, 0)
+APOOVE.Size = UDim2.new(1.00000012, 0, 0.110202447, 0)
+
+Icon_2.Name = "Icon"
+Icon_2.Parent = APOOVE
+Icon_2.AnchorPoint = Vector2.new(0.5, 0)
+Icon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon_2.BackgroundTransparency = 1.000
+Icon_2.BorderSizePixel = 0
+Icon_2.LayoutOrder = 2
+Icon_2.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+Icon_2.Size = UDim2.new(0.850000024, 0, 1, 0)
+Icon_2.ZIndex = 3
+Icon_2.AutoButtonColor = false
+Icon_2.Font = Enum.Font.GothamBold
+Icon_2.Text = ""
+Icon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Icon_2.TextSize = 18.000
+
+UICorner_4.CornerRadius = UDim.new(0.0900000036, 0)
+UICorner_4.Parent = Icon_2
+
+UIAspectRatioConstraint_4.Parent = Icon_2
+
+UICorner_5.CornerRadius = UDim.new(0.0549999997, 0)
+UICorner_5.Parent = APOOVE
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(74, 0, 111)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(41, 0, 62))}
+UIGradient_8.Rotation = -90
+UIGradient_8.Parent = APOOVE
+
+Buttons_2.Name = "Buttons"
+Buttons_2.Parent = APOOVE
+Buttons_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Buttons_2.BackgroundTransparency = 1.000
+Buttons_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Buttons_2.BorderSizePixel = 0
+Buttons_2.Position = UDim2.new(0.0939711034, 0, 0.0465595648, 0)
+Buttons_2.Size = UDim2.new(0.811815023, 0, 0.92569834, 0)
+Buttons_2.ZIndex = 4
+
+UIAspectRatioConstraint_5.Parent = Buttons_2
+UIAspectRatioConstraint_5.AspectRatio = 0.680
+
+UIListLayout_2.Parent = Buttons_2
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 5)
+
+UIPadding.Parent = MurderMyster2
+UIPadding.PaddingTop = UDim.new(0, -12)
+
+Pet.Name = "Pet"
+Pet.Parent = MurderMyster2
+Pet.AnchorPoint = Vector2.new(0.5, 0.5)
+Pet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pet.BorderSizePixel = 0
+Pet.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pet.Size = UDim2.new(0.300000012, 185, 0.300000012, 185)
+Pet.Visible = false
+
+UIPadding_2.Parent = Pet
+UIPadding_2.PaddingBottom = UDim.new(0, 10)
+UIPadding_2.PaddingLeft = UDim.new(0, 10)
+UIPadding_2.PaddingRight = UDim.new(0, 10)
+UIPadding_2.PaddingTop = UDim.new(0, 10)
+
+UICorner_6.CornerRadius = UDim.new(0.075000003, 0)
+UICorner_6.Parent = Pet
+
+Search.Name = "Search"
+Search.Parent = Pet
+Search.AnchorPoint = Vector2.new(1, 0.5)
+Search.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Search.BorderSizePixel = 0
+Search.Position = UDim2.new(0.999597132, 0, 0.946712792, 0)
+Search.Size = UDim2.new(0.643244445, 0, 0.130458534, 0)
+Search.ZIndex = 3
+
+Query.Name = "Query"
+Query.Parent = Search
+Query.AnchorPoint = Vector2.new(0, 0.5)
+Query.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Query.BackgroundTransparency = 1.000
+Query.BorderSizePixel = 0
+Query.Position = UDim2.new(0, 0, 0.5, 0)
+Query.Size = UDim2.new(0.949999988, 0, 0.850000024, 0)
+Query.ZIndex = 51
+Query.Font = Enum.Font.FredokaOne
+Query.PlaceholderColor3 = Color3.fromRGB(175, 175, 175)
+Query.PlaceholderText = "Search"
+Query.Text = ""
+Query.TextColor3 = Color3.fromRGB(30, 30, 30)
+Query.TextScaled = true
+Query.TextSize = 18.000
+Query.TextWrapped = true
+Query.TextXAlignment = Enum.TextXAlignment.Right
+
+UITextSizeConstraint.Parent = Query
+UITextSizeConstraint.MaxTextSize = 30
+
+UICorner_7.CornerRadius = UDim.new(0.449999988, 0)
+UICorner_7.Parent = Search
+
+Container.Name = "Container"
+Container.Parent = Pet
+Container.Active = true
+Container.AnchorPoint = Vector2.new(0, 0.5)
+Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Container.BackgroundTransparency = 1.000
+Container.BorderSizePixel = 0
+Container.Position = UDim2.new(0, 0, 0.405613512, 0)
+Container.Size = UDim2.new(1, 0, 0.811227024, 20)
+Container.BottomImage = "rbxassetid://5722186442"
+Container.CanvasSize = UDim2.new(0, 0, 15, 0)
+Container.MidImage = "rbxassetid://5722187782"
+Container.ScrollBarThickness = 16
+Container.TopImage = "rbxassetid://5722188468"
+Container.VerticalScrollBarInset = Enum.ScrollBarInset.Always
+
+UIPadding_3.Parent = Container
+UIPadding_3.PaddingBottom = UDim.new(0, 11)
+UIPadding_3.PaddingLeft = UDim.new(0, 15)
+UIPadding_3.PaddingRight = UDim.new(0, 15)
+UIPadding_3.PaddingTop = UDim.new(0, 11)
+
+UIListLayout_3.Parent = Container
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.Padding = UDim.new(0, 10)
+
+Pet_2.Name = "Pet"
+Pet_2.Parent = game.Workspace["MurderMyster2"].Pet.LocalScript
+Pet_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Pet_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pet_2.BackgroundTransparency = 1.000
+Pet_2.BorderSizePixel = 0
+Pet_2.Position = UDim2.new(0.509000003, 0, 0.160999998, 0)
+Pet_2.Size = UDim2.new(1.01300001, 0, 0.263000011, 0)
+Pet_2.ZIndex = 6
+Pet_2.Image = "rbxassetid://14423621163"
+Pet_2.ScaleType = Enum.ScaleType.Slice
+Pet_2.SliceCenter = Rect.new(20, 20, 80, 80)
+
+ConsoleButton.Name = "ConsoleButton"
+ConsoleButton.Parent = Pet_2
+ConsoleButton.AnchorPoint = Vector2.new(1, 0)
+ConsoleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ConsoleButton.BackgroundTransparency = 1.000
+ConsoleButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ConsoleButton.BorderSizePixel = 0
+ConsoleButton.Position = UDim2.new(1, 0, 0, 0)
+ConsoleButton.Size = UDim2.new(1, 0, 0.400000006, 0)
+ConsoleButton.Visible = false
+ConsoleButton.ZIndex = 10
+ConsoleButton.Image = "rbxasset://textures/ui/Controls/DefaultController/ButtonA@2x.png"
+ConsoleButton.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ConsoleButton.ScaleType = Enum.ScaleType.Fit
+
+UIAspectRatioConstraint_6.Parent = ConsoleButton
+
+bluegradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(87, 216, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(135, 255, 249))}
+bluegradient.Rotation = -90
+bluegradient.Name = "blue gradient"
+bluegradient.Parent = Pet_2
+
+Title_7.Name = "Title"
+Title_7.Parent = Pet_2
+Title_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.BackgroundTransparency = 1.000
+Title_7.BorderSizePixel = 0
+Title_7.Position = UDim2.new(0.500932872, 0, 0.500000179, 0)
+Title_7.Size = UDim2.new(0.981081069, 0, 0.900000036, 0)
+Title_7.ZIndex = 6
+Title_7.Font = Enum.Font.FredokaOne
+Title_7.Text = "1 - Cat"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextScaled = true
+Title_7.TextSize = 18.000
+Title_7.TextWrapped = true
+
+UIPadding_4.Parent = Pet_2
+UIPadding_4.PaddingBottom = UDim.new(0, 4)
+UIPadding_4.PaddingLeft = UDim.new(0, 4)
+UIPadding_4.PaddingRight = UDim.new(0, 4)
+UIPadding_4.PaddingTop = UDim.new(0, 4)
+
+UIAspectRatioConstraint_7.Parent = Pet_2
+UIAspectRatioConstraint_7.AspectRatio = 7.000
+
+UIAspectRatioConstraint_8.Parent = Pet
+UIAspectRatioConstraint_8.AspectRatio = 1.600
+
+Close_2.Name = "Close"
+Close_2.Parent = Pet
+Close_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(1.00345635, 0, -0.0369799845, 0)
+Close_2.Selectable = false
+Close_2.Size = UDim2.new(1, 0, 0.0599999987, 45)
+Close_2.ZIndex = 50
+Close_2.Image = "rbxassetid://14423621163"
+Close_2.ScaleType = Enum.ScaleType.Slice
+Close_2.SliceCenter = Rect.new(20, 20, 80, 80)
+
+UIAspectRatioConstraint_9.Parent = Close_2
+UIAspectRatioConstraint_9.AspectRatio = 1.050
+
+redgradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 2, 61)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 39, 125))}
+redgradient.Rotation = -90
+redgradient.Name = "red gradient"
+redgradient.Parent = Close_2
+
+TextLabel_2.Parent = Close_2
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(0.899999976, 0, 0.600000024, 0)
+TextLabel_2.ZIndex = 50
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "X"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 18.000
+TextLabel_2.TextWrapped = true
+
+shadow_5.Name = "shadow"
+shadow_5.Parent = Close_2
+shadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shadow_5.BackgroundTransparency = 1.000
+shadow_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shadow_5.BorderSizePixel = 0
+shadow_5.Position = UDim2.new(0.5, 0, 0.600000024, 0)
+shadow_5.Size = UDim2.new(1, 0, 1.10000002, 0)
+shadow_5.ZIndex = 49
+shadow_5.Image = "rbxassetid://14001321443"
+shadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_5.ImageTransparency = 0.750
+shadow_5.ScaleType = Enum.ScaleType.Slice
+shadow_5.SliceCenter = Rect.new(50, 50, 150, 150)
+shadow_5.SliceScale = 0.750
+
+Title_8.Name = "Title"
+Title_8.Parent = Pet
+Title_8.AnchorPoint = Vector2.new(0.5, 0.75)
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.BorderSizePixel = 0
+Title_8.Position = UDim2.new(0.20245029, 0, -0.00931367651, 0)
+Title_8.Size = UDim2.new(0.454726249, 0, 0.20015496, 0)
+Title_8.ZIndex = 50
+Title_8.Font = Enum.Font.FredokaOne
+Title_8.Text = "Pets Id List!"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextScaled = true
+Title_8.TextSize = 18.000
+Title_8.TextWrapped = true
+Title_8.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function GRGB_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	-- Decompiled with the Synapse X Luau decompiler.
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Enabled = not script.Parent.Parent.Parent.Enabled
+	end);
+	
+end
+coroutine.wrap(GRGB_fake_script)()
+local function DIHT_fake_script() -- Pet.LocalScript 
+	local script = Instance.new('LocalScript', Pet)
+
+	-- Decompiled with the Synapse X Luau decompiler.
+	
+	local l__Query__1 = script.Parent.Search.Query;
+	local l__Container__2 = script.Parent.Container;
+	function UpdateContainer()
+		local v1 = string.lower(l__Query__1.Text);
+		local v2, v3, v4 = pairs(l__Container__2:GetChildren());
+		while true do
+			local v5, v6 = v2(v3, v4);
+			if v5 then
+	
+			else
+				break;
+			end;
+			v4 = v5;
+			if v6:IsA("ImageButton") then
+				if v1 ~= "" then
+					if string.find(string.lower(v6:FindFirstChild("Title").Text), v1) then
+						v6.Visible = true;
+					else
+						v6.Visible = false;
+					end;
+				else
+					v6.Visible = true;
+				end;
+			end;	
+		end;
+	end;
+	l__Query__1.Changed:Connect(UpdateContainer);
+	
+end
+coroutine.wrap(DIHT_fake_script)()
+local function OYGFHB_fake_script() -- Pet.LocalScript 
+	local script = Instance.new('LocalScript', Pet)
+
+	-- Decompiled with the Synapse X Luau decompiler.
+	
+	local v1 = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"));
+	while not v1.Loaded do
+		game:GetService("RunService").Heartbeat:Wait();
+	end;
+	local u1 = false;
+	function Add(p1)
+		local v2 = script:WaitForChild("Pet"):Clone();
+		v2.Name = p1.Name;
+		v2.Title.Text = p1.Name;
+		v2.Parent = script.Parent.Container;
+		v2.Activated:Connect(function()
+			if not u1 then
+				u1 = true;
+				v1.Signal.Fire("Notification", p1.Name, {
+					color = Color3.fromRGB(4, 255, 0)
+				});
+				u1 = false;
+			end;
+		end);
+		v1.GUIFX.ButtonFX(v2);
+	end;
+	v1.GUIFX.ButtonFX(script.Parent.Close);
+	for i, v in pairs(game.ReplicatedStorage.__DIRECTORY.Pets:GetChildren()) do
+		if (not v:IsA('Folder')) then continue end
+		Add(v);
+	end;
+	
+end
+coroutine.wrap(OYGFHB_fake_script)()
+local function UTXBDXJ_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	-- Decompiled with the Synapse X Luau decompiler.
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = not script.Parent.Parent.Visible
+		script.Parent.Parent.Parent.Frame.Visible = not script.Parent.Parent.Parent.Frame.Visible
+	end);
+	
+end
+coroutine.wrap(UTXBDXJ_fake_script)()
